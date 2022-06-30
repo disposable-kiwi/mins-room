@@ -116,7 +116,7 @@ p {
 /* Testimonial Section */
 
 #testimonials {
-  background-color: #9FB4FF;
+  background-color: #cd9e54;
 }
 
 .testimonial-text {
@@ -129,6 +129,32 @@ p {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
+}
+
+
+
+div i.icon{
+  color:#e4bb42;
+}
+
+div i.icon:hover{
+  color:#ffeaaa;
+}
+
+div i.icon.first-feature:hover{
+  color:#6aa84f;
+}
+
+div i.icon.second-feature:hover{
+  color:#000000;
+}
+
+div i.icon.third-feature:hover{
+  color:red;
+}
+
+.container-fluid .row .feature-title{
+  font-family: 'Cabin', sans-serif;
 }
 
 
@@ -178,6 +204,14 @@ a.button {
 
   text-decoration: none;
   color: white;
+}
+
+a.github-text-bottom{
+  color:#000000;
+}
+
+button.github-icon-top:hover{
+  background-color:#000000;
 }
 
 @media (max-width: 1028px) {
